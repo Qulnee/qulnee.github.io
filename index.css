@@ -1,0 +1,50 @@
+.navbar-brand img{
+    width: 40%;
+}
+.nav-item .nav-link img{
+    width: 30px;
+}
+.nav-item .nav-link{
+    font-size: 25px;
+    color: rgb(7, 6, 6);
+}
+/*--------Product------*/
+.product-list {
+    text-align: center;
+}
+
+.product:hover {
+    background-color: rgba(216, 219, 221, 0.842);
+    cursor: pointer;
+    transition: .5s;
+    transform: translateY(-20px);
+    border-radius: 5px;
+}
+
+.product-img img {
+    max-width: 100%;
+}
+
+.product-name {
+    font-weight: bold;
+    color: rgb(89, 220, 243);
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.product-price {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.text-end {
+    display: inline-block;
+    margin-top: 10px;
+}
+.product-name{
+    color: rgb(0, 0, 0);
+}
+
+.button:hover{
+    background-color: rgba(208,1,27,0.08);
+}
